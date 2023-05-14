@@ -15,6 +15,8 @@ Check out the paper here DINOv2: [Learning Robust Visual Features without Superv
 - [ ] Adding KNN clustering
 - [ ] Adding Faiss indexing in ImageRetrival
 
+Please Give credits if one use this repo for any purpose. It would be helpful. Thank you
+
 #### citation
 ```
 @misc{oquab2023dinov2,
