@@ -9,7 +9,7 @@ Check out the paper here DINOv2: [Learning Robust Visual Features without Superv
 - Like Mentioned in paper, I have used the features from Images using 2 step-PCA to visualize in a fashion showed in paper. The above visualization is the result of it.
 - I also have used DinoV2 for Classification, and compared it with Resnets(might not be a fair comparision of transformers vs CNNs).
 
-![Classification](assests/Classification.PNG)
+![Classification](assets/Classification.PNG)
 
 #### TODO:
 - [X] Adding PCA Visualization
