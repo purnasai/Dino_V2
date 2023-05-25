@@ -6,16 +6,23 @@ Check out the paper here DINOv2: [Learning Robust Visual Features without Superv
 
 `inspired from original Facebook Meta AI repo`.
 
+#### 1. Feature Visualization:
 - Like Mentioned in paper, I have used the features from Images using 2 step-PCA to visualize in a fashion showed in paper. The above visualization is the result of it.
+#### 2. Image Classification:
 - I also have used DinoV2 for Classification, and compared it with Resnets(might not be a fair comparision of transformers vs CNNs).
 
+
 ![Classification](assets/Classification.PNG)
+
+#### 3. Image Search/Retrieval
+- I have also used DinoV2 for Image similarity, extracted image features form Database of Images, Used A Query image to query against the Database of Images. We used **FAISS** for quick Retrieval. 
+
+![ImageRetrieval](assets/Retrieval.PNG)
 
 #### TODO:
 - [X] Adding PCA Visualization
 - [X] Adding DinoV2 VS Resnet Classification
-- [ ] Adding KNN clustering
-- [ ] Adding Faiss indexing in ImageRetrival
+- [X] Adding Faiss indexing in ImageRetrival
 
 Please Give credits if one use this repo for any purpose. It would be helpful. Thank you
 
