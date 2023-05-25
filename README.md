@@ -24,6 +24,7 @@ Check out the paper here DINOv2: [Learning Robust Visual Features without Superv
 - Paralell Processing at Feature creation for Database images is helpful.
 - We are currently using Faiss.IndexL2 with Normalized Vectors which is Cosine Similarity, But IVFPQ(Inverted File pointer Quantization) + HNSW Of FAISS can Search Billions Of Points in MilliSeconds & Can be added Later.
 
+## CLIP: Check Out My CLIP For Image Retrieval Repo [here](https://github.com/purnasai/CLIP_Image_Retrieval) 
 
 #### TODO:
 - [X] Adding PCA Visualization
