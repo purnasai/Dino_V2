@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "task-48-image-retrieval"
+version = "0.1.0"
+description = "Image Retrieval project"
+authors = ["Purnasaigudikandula"]
+readme = "README.md"
+packages = [{include = "task_48_image_retrieval"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.24.3"
+pandas = "^2.0.1"
+torch = "^2.0.1"
+torchvision = "^0.15.2"
+transformers = "^4.29.2"
+ruff = "^0.0.269"
+pillow = "^9.5.0"
+faiss-cpu = "^1.7.4"
+h5py = "^3.8.0"
+tqdm = "^4.65.0"
+pylint = "^2.17.4"
+joblib = "^1.2.0"
+certifi = "^2023.5.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
