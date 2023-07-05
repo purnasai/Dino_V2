@@ -1,3 +1,8 @@
+![GitHub repo size](https://img.shields.io/github/repo-size/purnasai/Dino_V2)
+![GitHub Repo stars](https://img.shields.io/github/stars/purnasai/Dino_V2)
+
+
+
 # Dino_V2
 #### Learning Robust Visual Features without Supervision
 Check out the paper here DINOv2: [Learning Robust Visual Features without Supervision](https://arxiv.org/abs/2304.07193)
